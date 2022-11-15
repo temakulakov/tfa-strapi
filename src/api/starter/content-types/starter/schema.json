@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "starters",
+  "info": {
+    "singularName": "starter",
+    "pluralName": "starters",
+    "displayName": "starter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "background": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "main_button_text": {
+      "type": "string"
+    },
+    "default_button_text": {
+      "type": "string"
+    }
+  }
+}
